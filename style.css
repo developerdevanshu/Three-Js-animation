@@ -1,0 +1,131 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;  
+}
+html,body{
+
+height: 100%;
+width: 100%;
+
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    
+
+
+}
+#back{
+    height: 100vh;
+    width: 100vw;
+   /* background-color: red; */
+
+
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    /* object-fit:cover; */
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    /* background-color:white; */
+
+
+}
+#warea{
+    position: relative;
+  margin: 0 auto;
+width: 90%;
+max-width: 1920px;
+height: 100%;
+
+
+}
+#nav{
+    /* pointer-events: all; */
+    width: 100%;
+    padding: 40px 0;
+   display: flex;
+   justify-content: space-between;
+   color:rgba(0, 0, 0, 0.849)
+    
+
+}
+#nleft{
+
+display: flex;
+align-items: center;
+gap: 30px;
+font-size: 14px;
+
+}
+#nright{
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 14px;
+ }
+
+#hero{
+    margin-top: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 0;
+transform: translate(0%, -50%);
+width: 100%;
+/* height: 100px; */
+display: flex;
+justify-content: space-between;
+
+
+}
+#heroleft{
+min-width: 50%;
+/* height: 100px; */
+/* background-color: brown; */
+margin-bottom: 7vw;
+
+}
+#heroright{
+min-width: 30%;
+/* height: 100px; */
+
+
+}
+
+#heroleft .hld1 h1{
+    
+    font-size: 7.5vw;
+    font-weight: 200;
+    /* word-spacing: 20px; */
+    text-wrap:nowrap;
+   
+    color: rgba(255, 255, 255, 0.598);
+    /* mix-blend-mode:multiply !important; */
+ 
+}
+
+#heroleft button{
+    pointer-events: all;
+padding-bottom:4vw;
+font-size: 2vw;
+height: 3.5vw;
+width: 20vw; 
+background-color:transparent;
+color: bisque;
+
+
+
+}
+
+
+ 
